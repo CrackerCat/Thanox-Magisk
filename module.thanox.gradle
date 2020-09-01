@@ -1,0 +1,23 @@
+ext {
+    moduleId = "thanox-core"
+    riruApiVersion = 7
+    riruMinVersionName = "v21.2"
+
+    moduleProp = [
+            name       : "Thanox-Magisk",
+            version    : "v1.0",
+            versionCode: "1",
+            author     : "Tornaco",
+            description: "Patch android framework and bring up thanox, make sure magisk riru installed.",
+            api        : riruApiVersion
+    ]
+
+    magiskModuleProp = [
+            id         : "riru-${moduleId.replace('_', '-')}",
+            name       : "Riru - ${moduleProp['name']}",
+            version    : moduleProp['version'],
+            versionCode: moduleProp['versionCode'],
+            author     : moduleProp['author'],
+            description: moduleProp['description']
+    ]
+}
