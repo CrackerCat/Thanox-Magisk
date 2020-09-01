@@ -1,1 +1,2 @@
+include ':patcher'
 include ':module'
