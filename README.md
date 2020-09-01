@@ -1,3 +1,4 @@
 # Thanox Magisk
-Patching Android frmamework with thanox core hooks.
+Patching Android framework with thanox core hooks.
+
 Module riru-core is needed.
